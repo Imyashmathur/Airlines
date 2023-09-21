@@ -6,7 +6,7 @@ export const Footer = () => {
     <>
       <div>
         <footer id="footer-we">
-          <p>©2023 JMR Airlines</p>
+          <p>©2023 YASH Airlines</p>
         </footer>
       </div>
     </>
