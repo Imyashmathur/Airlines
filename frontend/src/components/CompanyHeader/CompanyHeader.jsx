@@ -8,7 +8,7 @@ const CompanyHeader = () => {
     
     >
       <img src={logo} alt="" />
-      JMR Airlines
+      YASH Airlines
     </div>
   );
 };
