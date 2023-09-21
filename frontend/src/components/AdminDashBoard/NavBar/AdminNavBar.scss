@@ -1,0 +1,45 @@
+.admin-navbar{
+    height:5rem;
+    display:flex;
+    justify-content: right;
+    padding:0 3rem;
+    gap:2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:1rem;
+
+    a{
+        text-decoration: none;
+        background-color: #f8f8f885;
+        padding:0.2rem 0.8rem;
+        border-radius:10px;
+        font-weight: 550;
+        color:black;
+        box-shadow:  0 0 10px 0 rgba(0,0,0,0.1);
+    }
+    
+    .active{
+        color:red;
+        transform: scale(1.2);
+        box-shadow:  0 0 10px 0 rgba(0,0,0,0.3);
+    }
+ }
+
+
+ @media all and (max-width:600px){
+    .admin-navbar{
+        justify-content: center;
+        height:9rem
+    }
+ }
+
+
+
+ @media all and (max-width:450px){
+    .admin-navbar{
+        justify-content: center;
+        height:12rem
+    }
+ }
+
+

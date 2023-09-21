@@ -1,0 +1,45 @@
+* {
+  transition: all 0.2s;
+}
+
+.content {
+  padding-left: 6rem;
+  min-height: 100vh;
+}
+
+.content-big {
+  padding-left: 17rem !important;
+}
+
+.color-change {
+  color: black !important;
+}
+
+.dark-color {
+  color: white !important;
+}
+
+.flight-select {
+  display: flex;
+  gap: 1rem;
+}
+
+.flight-select > select {
+  border: none;
+  background-color: #f8f8f885;
+  font-size: 1.2rem;
+  height: 3rem;
+  border-radius: 10px;
+  padding: 0.4rem;
+  outline: none;
+}
+@media all and (max-width: 1100px) {
+  .content {
+    padding: 0;
+    justify-content: left;
+  }
+
+  .flight-select {
+    flex-direction: column;
+  }
+}

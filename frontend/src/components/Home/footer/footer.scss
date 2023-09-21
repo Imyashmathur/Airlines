@@ -1,0 +1,24 @@
+
+#footer-we{
+    text-align: center;
+    height:9rem;
+	background-color: #f8f8f885;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    font-size : 1.5rem;
+    font-weight:550
+
+	
+}
+.social-icons{
+      padding: 10px;
+}
+
+
+@media all and (max-width:450px){
+    #footer-we{
+        flex-direction:column
+    }
+
+}
